@@ -1,0 +1,16 @@
+PODS:
+  - Yoga (1.6.0)
+  - YogaKit (1.6.0):
+    - Yoga (~> 1.6)
+
+DEPENDENCIES:
+  - Yoga
+  - YogaKit
+
+SPEC CHECKSUMS:
+  Yoga: 81670877477311136b1b3f69a6307ce62e1c89cf
+  YogaKit: 8fe0ddd21673226c0b6077fc3ad5c8fa6cda722e
+
+PODFILE CHECKSUM: 79e916805a34d218d2802dec0046264fe4d458b6
+
+COCOAPODS: 1.4.0

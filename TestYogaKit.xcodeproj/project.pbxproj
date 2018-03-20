@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9741DD0C205FB7FA008CA0EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9741DD0B205FB7FA008CA0EA /* AppDelegate.swift */; };
+		9741DD0E205FB7FA008CA0EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9741DD0D205FB7FA008CA0EA /* ViewController.swift */; };
+		9741DD11205FB7FA008CA0EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9741DD0F205FB7FA008CA0EA /* Main.storyboard */; };
+		9741DD13205FB7FA008CA0EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9741DD12205FB7FA008CA0EA /* Assets.xcassets */; };
+		9741DD16205FB7FA008CA0EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9741DD14205FB7FA008CA0EA /* LaunchScreen.storyboard */; };
+		D61BEE608EC015206850CA5B /* Pods_TestYogaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B682F78670818E85DAB6D8E6 /* Pods_TestYogaKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9741DD08205FB7FA008CA0EA /* TestYogaKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestYogaKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9741DD0B205FB7FA008CA0EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9741DD0D205FB7FA008CA0EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9741DD10205FB7FA008CA0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9741DD12205FB7FA008CA0EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9741DD15205FB7FA008CA0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9741DD17205FB7FA008CA0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B682F78670818E85DAB6D8E6 /* Pods_TestYogaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestYogaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA9309BF46C554BC55101F0 /* Pods-TestYogaKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestYogaKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestYogaKit/Pods-TestYogaKit.release.xcconfig"; sourceTree = "<group>"; };
+		DA9FF151838CD17479558851 /* Pods-TestYogaKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestYogaKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestYogaKit/Pods-TestYogaKit.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9741DD05205FB7FA008CA0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61BEE608EC015206850CA5B /* Pods_TestYogaKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		388CE128E7B72B347CD6D029 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B682F78670818E85DAB6D8E6 /* Pods_TestYogaKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69450153B4D450035DAF6E24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA9FF151838CD17479558851 /* Pods-TestYogaKit.debug.xcconfig */,
+				BCA9309BF46C554BC55101F0 /* Pods-TestYogaKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9741DCFF205FB7FA008CA0EA = {
+			isa = PBXGroup;
+			children = (
+				9741DD0A205FB7FA008CA0EA /* TestYogaKit */,
+				9741DD09205FB7FA008CA0EA /* Products */,
+				69450153B4D450035DAF6E24 /* Pods */,
+				388CE128E7B72B347CD6D029 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9741DD09205FB7FA008CA0EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9741DD08205FB7FA008CA0EA /* TestYogaKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9741DD0A205FB7FA008CA0EA /* TestYogaKit */ = {
+			isa = PBXGroup;
+			children = (
+				9741DD0B205FB7FA008CA0EA /* AppDelegate.swift */,
+				9741DD0D205FB7FA008CA0EA /* ViewController.swift */,
+				9741DD0F205FB7FA008CA0EA /* Main.storyboard */,
+				9741DD12205FB7FA008CA0EA /* Assets.xcassets */,
+				9741DD14205FB7FA008CA0EA /* LaunchScreen.storyboard */,
+				9741DD17205FB7FA008CA0EA /* Info.plist */,
+			);
+			path = TestYogaKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9741DD07205FB7FA008CA0EA /* TestYogaKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9741DD1A205FB7FA008CA0EA /* Build configuration list for PBXNativeTarget "TestYogaKit" */;
+			buildPhases = (
+				530D473EE5B90189C8E7CAC2 /* [CP] Check Pods Manifest.lock */,
+				9741DD04205FB7FA008CA0EA /* Sources */,
+				9741DD05205FB7FA008CA0EA /* Frameworks */,
+				9741DD06205FB7FA008CA0EA /* Resources */,
+				EBC5F170FC1012241016E06F /* [CP] Embed Pods Frameworks */,
+				03446837735D91DF49002171 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestYogaKit;
+			productName = TestYogaKit;
+			productReference = 9741DD08205FB7FA008CA0EA /* TestYogaKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9741DD00205FB7FA008CA0EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Line corp";
+				TargetAttributes = {
+					9741DD07205FB7FA008CA0EA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9741DD03205FB7FA008CA0EA /* Build configuration list for PBXProject "TestYogaKit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9741DCFF205FB7FA008CA0EA;
+			productRefGroup = 9741DD09205FB7FA008CA0EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9741DD07205FB7FA008CA0EA /* TestYogaKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9741DD06205FB7FA008CA0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9741DD16205FB7FA008CA0EA /* LaunchScreen.storyboard in Resources */,
+				9741DD13205FB7FA008CA0EA /* Assets.xcassets in Resources */,
+				9741DD11205FB7FA008CA0EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03446837735D91DF49002171 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestYogaKit/Pods-TestYogaKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		530D473EE5B90189C8E7CAC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestYogaKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBC5F170FC1012241016E06F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TestYogaKit/Pods-TestYogaKit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
+				"${BUILT_PRODUCTS_DIR}/YogaKit/YogaKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YogaKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestYogaKit/Pods-TestYogaKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9741DD04205FB7FA008CA0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9741DD0E205FB7FA008CA0EA /* ViewController.swift in Sources */,
+				9741DD0C205FB7FA008CA0EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9741DD0F205FB7FA008CA0EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9741DD10205FB7FA008CA0EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9741DD14205FB7FA008CA0EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9741DD15205FB7FA008CA0EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9741DD18205FB7FA008CA0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9741DD19205FB7FA008CA0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9741DD1B205FB7FA008CA0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA9FF151838CD17479558851 /* Pods-TestYogaKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestYogaKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linecorp.TestYogaKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9741DD1C205FB7FA008CA0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCA9309BF46C554BC55101F0 /* Pods-TestYogaKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestYogaKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linecorp.TestYogaKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9741DD03205FB7FA008CA0EA /* Build configuration list for PBXProject "TestYogaKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9741DD18205FB7FA008CA0EA /* Debug */,
+				9741DD19205FB7FA008CA0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9741DD1A205FB7FA008CA0EA /* Build configuration list for PBXNativeTarget "TestYogaKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9741DD1B205FB7FA008CA0EA /* Debug */,
+				9741DD1C205FB7FA008CA0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9741DD00205FB7FA008CA0EA /* Project object */;
+}
