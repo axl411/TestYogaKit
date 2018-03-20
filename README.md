@@ -14,7 +14,9 @@ ContainerView2
 ```
 
 I expect:
-  ✅ ContainerView1's width is equal to Label1's width
-  ❌ ContainerView2's width is equal to Label2's width
+  - ContainerView1's width is equal to Label1's width ✅
+  - ContainerView2's width is equal to Label2's width ❌
 
+
+Below is the screenshot of the demo with explanation:
 ![demo](./demo.png)
