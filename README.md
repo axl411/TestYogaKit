@@ -16,6 +16,8 @@ ContainerView2
 I expect:
   - ContainerView1's width is equal to Label1's width ✅
   - ContainerView2's width is equal to Label2's width ❌
+  
+So using `yoga` property does what I expect.
 
 
 Below is the screenshot of the demo with explanation:
